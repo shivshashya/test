@@ -3,7 +3,7 @@ scanner(
   {
   serverUrl: "http://localhost:9000",
   login:"admin",
-  password:"admin",
+  password:"shiv",
   options: {
     "sonar.sources": "./src"
   },
