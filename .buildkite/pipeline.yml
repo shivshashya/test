@@ -1,4 +1,4 @@
 steps:
-  - lable: "Example Test"
+  - label: "Example Test"
     command: echo "Hello!"
 
