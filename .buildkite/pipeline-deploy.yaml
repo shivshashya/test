@@ -1,0 +1,4 @@
+steps:
+  - lable: "Example test 1"
+    command: echo "Hiii!"
+
