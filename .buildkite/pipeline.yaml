@@ -1,4 +1,0 @@
-steps:
-  - lable: "Example Test"
-    command: echo "Helllo!"
-
