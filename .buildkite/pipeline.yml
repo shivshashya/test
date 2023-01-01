@@ -1,4 +1,5 @@
-steps:
-  - label: "Example Test"
-    command: echo "Hello!"
+#!/bin/bash
 
+set -euo pipefail
+
+run_tests
