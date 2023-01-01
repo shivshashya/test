@@ -1,5 +1,9 @@
 #!/bin/bash
 
-set -euo pipefail
+# Note that we don't enable the 'e' option, which would cause the script to
+# immediately exit if 'run_tests' failed
+set -uo pipefail
 
 run_tests
+
+clean_up
