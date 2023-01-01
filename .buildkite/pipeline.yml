@@ -1,5 +1,7 @@
 #!/bin/bash
 
-echo "$test"
-
+set -x # Enable debugging
 some_command
+set +x # Disable debugging
+
+some_other_command
